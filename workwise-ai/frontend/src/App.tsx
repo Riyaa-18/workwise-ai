@@ -83,7 +83,7 @@ export default function App() {
   const [copied, setCopied] = useState(false);
 
   const handleTabChange = (id: Tab) => {
-    setActiveTab(id); setResult(""); setText(""); setText2(""); setJobRole(""); setFile(null); setFile2(null);
+    setActiveTab(id); setResult(""); setText(""); setJobRole(""); setFile(null); setFile2(null);
   };
 
   const handleSubmit = async () => {
