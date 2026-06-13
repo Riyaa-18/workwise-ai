@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import Logo from "./Logo";
 
-const API_URL = "https://cautious-space-cod-9757gwvxgrjjhx97x-8000.app.github.dev";
+const API_URL = "https://workwise-ai.onrender.com";
 
 type Tab = "resume" | "upload" | "jd" | "email" | "compare" | "interview";
 
