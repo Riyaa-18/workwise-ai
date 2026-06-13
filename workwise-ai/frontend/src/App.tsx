@@ -76,7 +76,7 @@ export default function App() {
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState("");
   const [text, setText] = useState("");
-  const [text2, setText2] = useState("");
+  // const [text2, setText2] = useState("");
   const [jobRole, setJobRole] = useState("");
   const [file, setFile] = useState<File | null>(null);
   const [file2, setFile2] = useState<File | null>(null);
